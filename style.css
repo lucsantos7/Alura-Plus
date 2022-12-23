@@ -161,3 +161,40 @@ body {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+
+/*Parte responsiva para o site*/
+@media screen and (max-width:768px){
+    .container{
+        display:block; /*Para que elementos fique um embaixo do outro*/
+        background-image: none; /*Tirar imagem*/
+    }
+
+    .container__imagem{
+        width:50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width:50vw;
+    }
+
+    .dispositivos__titulo{
+        margin:0 1em;
+    }
+    .dispositivos__lista{
+        display:block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
+
+}
